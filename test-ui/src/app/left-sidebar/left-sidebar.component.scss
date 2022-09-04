@@ -1,0 +1,22 @@
+.sidebar-container {
+  height: 100vh;
+  background-color: rgba(23, 23, 24, 0.616);
+  .godfather-section {
+    text-align: center;
+    padding: 4rem 0;
+    .logo-img {
+      width: 200px;
+      height: 150px;
+    }
+  }
+  .list-user {
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    .selected-user {
+      color: rgb(15, 138, 219);
+      font-size: 28px;
+    }
+  }
+}
