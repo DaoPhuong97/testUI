@@ -3,7 +3,7 @@
   background-color: rgba(23, 23, 24, 0.616);
   .godfather-section {
     text-align: center;
-    padding: 4rem 0;
+    padding: 6rem 0;
     .logo-img {
       width: 200px;
       height: 150px;
@@ -17,6 +17,11 @@
     .selected-user {
       color: rgb(15, 138, 219);
       font-size: 28px;
+      background-color: #00000021;
     }
   }
+}
+:host{
+  position: absolute;
+  z-index: 1;
 }

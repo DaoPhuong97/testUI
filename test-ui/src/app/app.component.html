@@ -1,14 +1,10 @@
-  <div class="container-wrapper">
+  <div class="container-wrapper background-image-custom">
     <app-left-sidebar style="width: 30%;" [employees]="employees" (selectEmployee)="selectEmployee($event)"></app-left-sidebar>
     <div class="home-containter">
       <div class="dashboard-container">
-        <div  class="back-ground" >
-          <img class="image" src="../assets/images/Godfather header.jpg" alt="back ground"/>
-        </div>
         <div class="user-list-wrapper">
           <div class="content">
             <img class="avatar" [src]="'../assets/images/avatar/' + currentSelectedEmployee.image" alt=""/>
-
             <div class="infor-user">
               <div class="user-name">{{currentSelectedEmployee.name}}</div>
               <div class="popularity">
